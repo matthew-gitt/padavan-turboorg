@@ -4,7 +4,7 @@ PKG_NAME := lzma
 PKG_VERSION := 2600
 PKG_SOURCE := $(PKG_NAME)$(PKG_VERSION).7z
 PKG_SOURCE_URL := https://www.7-zip.org/a/
-PKG_HASH := 79b39f10b7b69eea293caa90c3e7ea07faf8f01f8ae9db1bb1b90c092375e5f3
+PKG_HASH := 6b7d0c8ed1a67112d5337e4532ecdcb9fd2eab8b1f6bb54199f9b6a627b506cc
 PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
