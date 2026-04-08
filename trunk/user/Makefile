@@ -145,6 +145,7 @@ dir_$(FRP_ENABLE)				+= frp
 dir_$(SAMBA_ENABLED)				+= samba36
 dir_$(SAMBA_ENABLED)				+= wsdd2
 dir_$(SOFTETHERVPN_ENABLE)			+= softethervpn
+dir_$(NATP66_ENABLE)			+= natp66
 dir_$(OPENSSH_ENABLED)				+= openssh
 dir_$(DROPBEAR_ENABLED)				+= dropbear
 dir_$(CONFIG_FIRMWARE_INCLUDE_3PROXY)		+= 3proxy
