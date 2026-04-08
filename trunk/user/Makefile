@@ -32,7 +32,7 @@ OPENSSH_ENABLED=n
 SAMBA_ENABLED=n
 SHADOWSOCKS_ENABLE=n
 SOFTETHERVPN_ENABLE=y
-NATP66_ENABLE=y
+NAPT66_ENABLE=y
 STORAGE_ENABLED=n
 TROJAN_ENABLE=n
 
@@ -145,7 +145,7 @@ dir_$(FRP_ENABLE)				+= frp
 dir_$(SAMBA_ENABLED)				+= samba36
 dir_$(SAMBA_ENABLED)				+= wsdd2
 dir_$(SOFTETHERVPN_ENABLE)			+= softethervpn
-dir_$(NATP66_ENABLE)			+= natp66
+dir_$(NAPT66_ENABLE)			+= napt66
 dir_$(OPENSSH_ENABLED)				+= openssh
 dir_$(DROPBEAR_ENABLED)				+= dropbear
 dir_$(CONFIG_FIRMWARE_INCLUDE_3PROXY)		+= 3proxy
