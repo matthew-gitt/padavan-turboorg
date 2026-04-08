@@ -4,7 +4,7 @@ SRC_VER = v4.29-9680
 SRC_BRANCH = rtm
 
 SRC_NAME = softether-src-$(SRC_VER)-$(SRC_BRANCH)
-SRC_URL = https://github.com/matthew-gitt/test-download/releases/download/$(SRC_VER)-$(SRC_BRANCH)/$(SRC_NAME).tar.gz
+SRC_URL = https://github.com/matthew-gitt/test-download/releases/download/softether/$(SRC_NAME).tar.gz
 
 HAMCORE_DIR = $(SRC_VER)/src/bin/BuiltHamcoreFiles/unix
 CFLAGS += -minterlink-mips16
